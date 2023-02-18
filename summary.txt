@@ -1,0 +1,27 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+
+I used Python bacause a lot of experience with the language and its technologies. The assessment
+required reading in a csv file so I used the pandas library to help with that. Also, I believe
+my written code in Python is similar to that of direct pseudocode (as opposed to other languages), 
+thus allowing my code to be easily readable and explainable to my audience.
+
+2. What are the advantages and disadvantages of your solution?
+
+Advantages:
+- error testing for invalid input
+- pandas makes code more readable -- also more efficient for large datasets
+
+Disadvantages:
+- while I included some error testing, it wasn't exhaustive (e.g. if csv exists but certain columns don't exist/are out of order, if points is a float whether that should be valid)
+- my solution requires sorting which is O(nlogn) runtime -- not sure if anything can decrease runtime drastically, but a different data structure could optimize the runtime a little
+- pandas isn't built-in to Python - the csv library could've been another option if we don't want to install dependencies
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+
+When I took systems programming last fall, the first assignment was to build a LaTeX-like macroprocessor in C. I really
+enjoyed the project because it challenged me in new ways -- I had to think about the dozens upon dozens of edge cases
+and potential errors that were beyond the scope of projects I'd worked on before. Because of this I learned to prepare
+and map out a plan of my course of action prior to starting coding the assignment. After I started coding I was able to
+make minor adjustments accordingly without disrupting the core functionality of my program. After a week and a half and
+35+ hrs coding up the macroprocessor later (the assignments in this usually took 30-50 hrs), I felt fulfilled for having
+built a very in-depth and complete program that challenged me to the limit as a problem-solver.
