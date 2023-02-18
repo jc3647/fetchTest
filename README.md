@@ -1,5 +1,3 @@
-# fetchTest
- 
  # Fetch Take Home Assessment
  
 Program that takes in a number of points and processes transactions from payers.
